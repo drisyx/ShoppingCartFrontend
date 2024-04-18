@@ -4,15 +4,23 @@ import AddProduct from './components/AddProduct';
 import SearchProduct from './components/SearchProduct';
 import ViewAll from './components/ViewAll';
 import ShoppingNavbar from './components/ShoppingNavbar';
+import { BrowserRouter,Routes,Route } from 'react-router-dom';
 
 function App() {
   return (
-    <div>
-      <AddProduct/>
-      <SearchProduct/>
-     <ViewAll/>
-     <ShoppingNavbar/>
-    </div>
+   <BrowserRouter>
+   
+   <Routes>
+
+<Route path='/' element = {<ViewAll/>}/>
+<Route path='/search' element={<SearchProduct/>}/>
+<Route path='/add' element={<AddProduct/>}/>
+
+   </Routes>
+   
+   
+   
+   </BrowserRouter>
   );
 }
 

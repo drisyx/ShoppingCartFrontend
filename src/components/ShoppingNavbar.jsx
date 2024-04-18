@@ -15,13 +15,13 @@ const ShoppingNavbar = () => {
                     <div class="collapse navbar-collapse" id="navbarNav">
                         <ul class="navbar-nav">
                             <li class="nav-item">
-                                <a class="nav-link active" aria-current="page" href="">Add</a>
+                                <a class="nav-link active" aria-current="page" href="/add">Add</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="">ViewAll</a>
+                                <a class="nav-link" href="/">ViewAll</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="">Search</a>
+                                <a class="nav-link" href="/search">Search</a>
                             </li>
 
                         </ul>
